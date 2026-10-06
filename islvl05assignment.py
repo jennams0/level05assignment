@@ -37,6 +37,7 @@ def get_player_choice():
         if x.lower() in ("rock", "paper", "scissors"):
             return x
         print("Invalid input. Try again.")
+        
 #welcome user to game
 print("Welcome user. Let the battle of Rock, Paper, Scissors commence.")
 
